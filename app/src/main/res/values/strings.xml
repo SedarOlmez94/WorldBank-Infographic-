@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Navy Walks</string>
+    <string name="action_settings">Settings</string>
+    <string name="hintEditText">Type sentence to be spoken</string>
+    <string name="populationString">The population of Uganda is 100,000</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Agriculture">AGRICULTURE</string>
+    <string name="Population">POPULATION</string>
+    <string name="title_activity_get_world_bank_api">GetWorldBankApi</string>
+    <string name="title_activity_navigation_drawer_main">navigationDrawerMain</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="checking">extractedData</string>
+    <string name="title_activity_agriculture_three">AgricultureThree</string>
+    <string name="AgricultureThree">agricultureThree</string>
+    <string name="from_text">From</string>
+    <string name="to_view">To</string>
+    <string name="left_drawer">Information</string>
+    <string name="right_drawer">Countries</string>
+    <string name="country_name">"[%1$s]%2$s"</string>
+    <string name="delta">"Delta over the years: %1$.2f"</string>
+
+    <string name="waterDesc">"Access to an improved water source refers to the percentage of the population using an improved drinking water source. The improved drinking water source includes piped water on premises (piped household water connection located inside the user’s dwelling, plot or yard), and other improved drinking water sources (public taps or standpipes, tube wells or boreholes, protected dug wells, protected springs, and rainwater collection)."</string>
+    <string name="anemiaDesc">"Prevalence of anemia, children under age 5, is the percentage of children under age 5 whose hemoglobin level is less than 110 grams per liter at sea level."</string>
+    <string name="measlesDesc">"Child immunization measures the percentage of children ages 12-23 months who received vaccinations before 12 months or at any time before the survey. A child is considered adequately immunized against measles after receiving one dose of vaccine."</string>
+</resources>

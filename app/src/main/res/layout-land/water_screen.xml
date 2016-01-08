@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_id">
+
+    <Space
+        android:layout_width="20dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:id="@+id/country_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:id="@+id/indicatorInfo"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/indicatorName"
+                android:textColor="@color/white"
+                android:layout_weight="0.05"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/indicatorDescription"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp">
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="550dp"
+                android:layout_height="380dp"
+                android:id="@+id/water_chart"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <Spinner
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/from"
+                    android:background="#F9690E"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:id="@+id/to"
+                    android:background="#F9690E"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
